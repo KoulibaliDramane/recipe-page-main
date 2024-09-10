@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+main{
+    background-color: white;
+    padding: 30px;
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Preparation_time{
+    padding: 20px;
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+}
+
+.gras{
+    font-weight: 700;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 15px;
+}
+.calories{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.last-tr{
+    border: 0;
+}
+tr, td {
+    padding: 15px;
+}
+section{
+    padding: 5px 0 10px;
+}
+hr{
+    border: 0;
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
